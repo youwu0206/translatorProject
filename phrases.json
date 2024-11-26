@@ -1,0 +1,23 @@
+
+{
+    "Food & Dining": [
+        "Can I see the menu?",
+        "Do you have vegetarian options?",
+        "How much does this cost?",
+        "What dishes do you recommend?",
+        "What's inside this dish?"
+    ],
+    "Public Transportation": [
+        "Where can I buy a ticket?",
+        "Does this bus go to downtown?",
+        "How much is the fare?",
+        "Does this bus go to my destination?"
+    ],
+    "Airport Navigation": [
+        "Where is the check-in counter?",
+        "How do I get to Terminal 1?",
+        "How do I get to Terminal 2?",
+        "Where is the nearest bathroom?",
+        "Where is my boarding gate?"
+    ]
+}

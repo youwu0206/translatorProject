@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Language Cheat Sheet Tool</title>
+</head>
+<body>
+    <h1>Generate Your Travel Cheat Sheet</h1>
+        <form action="/generate" method="post">
+            <label for="language">Select Target Language:</label>
+            <input type="text" id="language" name="language" placeholder="es (Spanish)" required>
+
+            <h3>Select Categories:</h3>
+        {% for category in categories %}
+            <input type="checkbox" id="{{ category }}" name="categories" value="{{ category }}">
+            <label for="{{ category }}">{{ category }}</label><br>
+        {% endfor %}
+
+        <br>
+        <button type="submit">Generate PDF</button>
+    </form>
+
+</body>
+</html>
