@@ -47,7 +47,7 @@ def generate_pdf(translated_phrases, output_file):
         # for loop to iterate over the list of translated phrases in the current category
         for phrase in phrases:
             # adds each phrase to the PDF and moves to a new line
-            pdf.cell(0, 10, text=phrase, ln=True)
+            pdf.cell(0, 10, txt=phrase, ln=True)
 
     # save the PDF
     pdf.output(output_file)
