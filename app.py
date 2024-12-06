@@ -34,7 +34,7 @@ def generate():
     generate_pdf(translated_phrases, output_file)
 
     # pass the output file to results.html, return the rendered template
-    return render_template('result.html', filename=output_file)
+    return render_template('results.html', filename=output_file)
 
 
 @app.route('/download/<filename>')
