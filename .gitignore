@@ -1,3 +1,5 @@
-.idea/*
+.DS_Store
+/venv
+.idea
 /service_account_key.json
 /generated_cheat_sheet.pdf
