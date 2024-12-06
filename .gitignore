@@ -1,5 +1,6 @@
 .DS_Store
 /venv
 .idea
+/__pycache__
 /service_account_key.json
 /generated_cheat_sheet.pdf
